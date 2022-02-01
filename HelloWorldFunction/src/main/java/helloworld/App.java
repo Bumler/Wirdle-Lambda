@@ -13,8 +13,7 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
-import helloworld.kotlin.endpoints.CommandActivity;
-
+import endpoints.CommandActivity;
 
 /**
  * Handler for requests to Lambda function.
