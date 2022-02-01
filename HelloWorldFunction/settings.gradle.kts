@@ -1,4 +1,4 @@
 
 dependencyResolutionManagement {
-    includeBuild '../../Wirdle'
+    includeBuild ("../../Wirdle")
 }
