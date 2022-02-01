@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+group = "me.bulme"
+
+dependencies {
+    implementation 'com.amazonaws:aws-lambda-java-core:1.2.1'
+    implementation 'com.amazonaws:aws-lambda-java-events:3.11.0'
+    implementation 'io.insert-koin:koin-java:2.0.1'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'me.bulme:wirdle'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8

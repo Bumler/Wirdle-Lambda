@@ -1,0 +1,4 @@
+package dependencyInjection
+
+class AwsApplication {
+}
